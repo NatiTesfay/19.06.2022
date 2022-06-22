@@ -35,32 +35,31 @@
 //     document.write(userPerson2[item] + " ");
 // }
 
+//  let userInfo = document.getElementById('dateFromUser');
+//  let userInfo2 = document.getElementById('dateFromUser1');
+//  let userInfo3 = document.getElementById('dateFromUser2');
 
 
-class User{
-    constructor(firstName,lastName,age){
-        this.firstName=firstName;
-        this.lastName=lastName;
-        this.age=age;
-    }
-}
-
-function btnPrint(){
- const userInfo = document.getElementById('dateFromUser');
-const userInfo2 = document.getElementById('dateFromUser1');
-const userInfo3 = document.getElementById('dateFromUser2');
-
-const user2 = new User(firstName,lastName,age)
-console.log(user2)
-for(const item in user2){
+// class User{
+//     constructor(firstName,lastName,age){
+//         this.firstName=firstName;
+//         this.lastName=lastName;
+//         this.age=age;
+//     }
+// }
 
 
-tableBody.appechild(document.createElement('th'))
-th.innerHTML = key + ":" + " ";
-th.innerHTML = '<td>${inputobject[key]}</td>'
-}
+// function btn(){
+//     let infoUser = new User(userInfo.value,userInfo2.value,userInfo3.value);
+// for(key in infoUser){
+//     tableBody.innerHTML += `<td> ${infoUser[key]} </td>`
+// }
 
-}
+// for(item in infoUser)
+
+// tableBody.innerHTML += `<th> ${key} </th>`
+// }
+
 
 // document.body.innerHTML += "<table>" +  "<th>" + userInfo.value + "</th>" + "<tr>" + "<tb>" + userInfo2.value + "</tb>" + "<tb>" + userInfo3.value +"</tb>" + "</tr>" + "</table>";
 
